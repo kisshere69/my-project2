@@ -1,0 +1,45 @@
+h1{
+    color: orange;
+    text-shadow: 20px 20px 20px grey;
+    text-align: right;
+}
+
+h2{
+    font-style: italic;
+    color: yellowgreen;
+}
+
+p3{
+    color: purple;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 300px;
+    text-align: justify;
+    background-color: lightslategray;
+    border-radius: 25px;
+    width:400px;
+    margin-bottom: 45px;
+    font-family: Arial Bold;
+}
+
+#p4{
+    color: brown;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 30px;
+    margin: 100px;
+}
