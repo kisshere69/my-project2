@@ -2,18 +2,21 @@
 
 <html lang ="en">
 <head>
-     <meta charset="UTF-8" />
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
+
 <title>My site</title>
+<link rel="stylesheet" type ="text/css "href="style.css"> <!--linking external css file-->
+
     <body>
-        <!---- This is a comment --> 
+        <!---- This is a comment -->
         
         <h1 style="color:blue">Hello World!</h1>
         <p1>
         1st paragraph
-        </p1> 
+        </p1>
         <br>
-            <a href ="https://www.google.com"> <!---- redirection to google --> 
+            <a href ="https://www.google.com">
                             <img alt="w3schools" src="https://www.w3schools.com/html/pic_trulli.jpg" width="600" height="350">
             </a>
         </br>
@@ -24,26 +27,43 @@
             <li>Item 1</li>
             <li>Item 2</li>
         </ul>
-        <br>  
+        <br>
         <ol style="list-style-type: upper-roman">
             <p2>My ordered list:</p2>
             <li>Apple</li>
             <li>Banana</li>
             </ol>
         </br>
-
-        <dl>  
-            <dt>Eggs</dt>
+        <dl>  <dt>Eggs</dt>
             <dd>6 gramms of protein</dd>
             <dt>Milk</dt>
             <dd>8 gramms of protein</dd>
         </dl>
         <form>
-            
+
+            First name: <input type="text" name="FirstName"><br>
+            Last name: <input type="text" name="LastName"><br>
+            Date of Birth: <input type="date" name="Date of Birth"><br>
+            Gender: <input name="Gender" type="radio">Male<input name="Gender" type="radio">Female<br>
+            Country: <select type ="radio" name="Country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option><br>
+            </select><br>
+            Email: <input type="email" name="Email"><br>
+            Mobile number: <input type="tel" name="MobileNumber" pattern="[0-20]{20}"><br>
+            Password: <input type="password" name="Password"><br>
+            Confirm Password: <input type="password" name="ConfirmPassword"><br>
+
+            <input type="checkbox" name="Terms">I agree to the Terms and Conditions<br>
+            <input type="checkbox" name="Terms">I agree to receive product updates and notifications<br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
         </form>
-
-
-         <br>
+        <br>
         <h2 style="color:green">This is my first webpage. Please don't judge me.
             </h2>
         </br>
